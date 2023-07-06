@@ -125,177 +125,126 @@
     .mean-container .mean-nav ul li a.mean-expand {
         top: 0;
     }
+    .margin_top_90 {
+        margin-top: 90px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    #my_slider a.carousel-control-prev {
-        left: 455px;
-        top: 94%;
-    }
-    #my_slider a.carousel-control-next {
-        right: 400px;
-        top: 94%;
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        right: 425px;
+        top: 90%;
     }
     #main_slider a.carousel-control-prev {
-        left: 825px;
-        top: 80%;
-    }
-    #main_slider a.carousel-control-next {
-        right: 20px;
-        top: 80%;
+        position: absolute;
+        left: 425px;
+        top: 90%;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 8px;
-        padding-left: 8px;
-        font-size: 14px;
-   }
-   .login_menu li {
-       float: left;
-       font-size: 14px;
+        text-align: center;
     }
-    .header_section::after {
-       width: 330px;
+    .navbar-toggler {
+        background-color: #fff;
     }
-    .header_section {
-        background-image: linear-gradient(-13deg, #ffffff 25%, #274d5a 20%);
+    .logo {
+        width: 33%;
     }
-    .best_text { left: 35px; }
-    .image_1 {
-        padding-top: 100px;
+    .image_2::after {
+        left: 0px;
     }
-    .number_text{
-        margin-right: 95px;
+    .image_2 {
+        width: 74%;
+        margin: 30px 0px 0px 15px;
     }
-    .number_text_2{
-        margin-right: 135px;
+    .about_taital {
+        font-size: 30px;
+        padding-top: 120px;
     }
-    .client_right {
-        width: 70%;
-        padding: 70px 0px 50px 20px;
-
+    .about_section {
+        padding-bottom: 0px;
     }
-    .subscribe_bt {
-        float: none;
+    .image_4 {
+        min-height: 328px;
     }
-
-
-
-
+    .box_main {
+        padding: 20px;
+    }
+    #my_slider a.carousel-control-next {
+        right: 320px;
+    }
+    #my_slider a.carousel-control-prev {
+        left: 320px;
+    }
+    .newsletter_taital {
+        font-size: 30px;
+    }
+    .footer_location_text li {
+        padding: 50px 12px;
+    }
+    .lorem_text {
+        width: 43%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
-        #main_slider a.carousel-control-prev {
+    #main_slider a.carousel-control-next {
         position: absolute;
-        left: 175px;
+        right: 325px;
         top: 90%;
+    }
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 325px;
+        top: 90%;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-toggler {
+        background-color: #fff;
+    }
+    .search_icon {
         display: none;
     }
-#main_slider a.carousel-control-next {
-    position: absolute;
-    left: 236px;
-    top: 90%;
-    display: none;
-}
-.navbar-toggler:not(:disabled):not(.disabled) {
-    display: block;
-}
-#main{
-    display: none;
-}
-.navbar-light .navbar-toggler-icon {
-    background-image:url(../images/toggle-icon1.png); 
-    width: 40px;
-}
-.navbar-light .navbar-toggler {
-    color: rgba(0,0,0,.5);
-    border-color: transparent !important;
-}
-.navbar-toggler {
-    padding: 0;
-}
-.header_section {
-    background-image: linear-gradient(-13deg, #fff 13%, #274d5a 12%);
-}
-.banner_taital{
-    padding-top: 0px;
-}
-.box_main::after { width: 340px; height: 500px; }
-.number_text{ margin-right: 50px; }
-.cycles_text::after { width: 90px; }
-.image_2{ padding-left: 20px; }
-.box_main_3::after {
-    width: 330px;
-    height: 380px;
-}
-.read_btn_main {
-    margin-top: 70px;
-}
-.image_5 {
-    width: 90%;
-}
-.about_main::after {
-    width: 100%;
-    height: 98%;
-}
-.about_main::before {
-    width: 94%;
-    top: 311px;
-    height: 240px;
-    left: -168px;
-}
-.about_section{
-    background-size: cover;
-    height: 828px;
-    margin-bottom: 180px;
-}
-.client_right {
-    width: 70%;
-    padding: 20px 0px 0px 15px;
-}
-#my_slider a.carousel-control-prev {
-    left: 330px;
-}
-#my_slider a.carousel-control-next {
-    right: 300px;
-}
-.post_text{
-    font-size: 14px;
-}
-.long_text{
-    font-size: 14px;
-}
-.contact_section{
-    padding-top: 0px;
-}
-.footer_section{
-    padding-top: 0px;
-    padding-bottom: 50px;
-}
-.email_text {
-    width: 50%;
-}
-.subscribe_bt {
-    float: none;
-}
-
-
-#navbarSupportedContent {
-    transform: translateX(0);
-}
-.navbar-expand-lg .navbar-nav .nav-link {
-    color: #000 !important;;
-    text-align: center;
-    justify-content: center;
-}
-
-.login_menu{
-    display: none;
-}
-
-
-
-
+    .image_2::after {
+        left: 0px;
+    }
+    .image_2 {
+        width: 65%;
+        margin: 30px 0px 0px 15px;
+    }
+    .about_taital {
+        font-size: 30px;
+        padding-top: 40px;
+    }
+    .about_section {
+        padding-bottom: 0px;
+    }
+    .image_4 {
+        min-height: 328px;
+    }
+    .box_main {
+        padding: 20px;
+    }
+    #my_slider a.carousel-control-next {
+        right: 320px;
+    }
+    #my_slider a.carousel-control-prev {
+        left: 320px;
+    }
+    .newsletter_taital {
+        font-size: 30px;
+    }
+    .footer_location_text li {
+        padding: 50px 12px;
+    }
+    .lorem_text {
+        width: 43%;
+    }
+    .margin_top_90 {
+        margin-top: 90px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -311,149 +260,114 @@
         top: 90%;
         display: none;
     }
-    .navbar-toggler:not(:disabled):not(.disabled) {
-        display: block;
+    .navbar {
+        padding: .5rem 15px;
     }
-    .bg-light { background-color: #ffffff !important;}
-#main{
-    display: none;
-}
-.navbar-light .navbar-toggler-icon {
-    background-image:url(../images/toggle-icon1.png); 
-    width: 40px;
-}
-.navbar-light .navbar-toggler {
-    color: rgba(0,0,0,.5);
-    border-color: transparent !important;
-}
-.navbar-toggler {
-    padding: 0;
-}
-.banner_section .row{
-    flex-direction: column-reverse;
-}
-.header_section{
-    background: #274d5a;
-}
-.best_text {
-    margin-top: 30px;
-}
-.header_section.header_bg::after {
-    height: 100%;
-}
-.header_section::after { display: none; }
-.box_main::after {
-    width: 90%;
-    height: 100%;
-}
-.number_text {
-    margin-right: 115px;
-}
-.cycles_text::after { width: 120px; top: 60px;}
-.cycles_text{ font-size: 26px; }
-.cycle_section_3 .row {
-    flex-direction: column-reverse;
-}
-.image_2 {
-    padding-left: 20px;
-}
-.box_main_3::after {
-width: 90%;
-height: 110%;
-}
-.number_text_2 {
-    margin-right: 160px;
-    margin-top: 70px;
-}
-.box_main_3 {
-    margin-bottom: 30px;
-}
-.cycle_section_2{
-    padding-top: 0px;
-}
-.read_btn_main {
-    margin-top: 50px;
-}
-.about_section{
-    background-size: cover;
-    height: 640px;
-    margin-bottom: 180px;
-}
-.about_taital {
-    font-size: 26px;
-}
-.about_text {
-    width: 100%;
-}
-.image_5 {
-    width: 90%;
-}
-.about_main::after {
-    width: 100%;
-    height: 98%;
-}
-.about_main::before {
-    width: 89%;
-    top: 190px;
-    height: 240px;
-    left: -144px;
-}
-.about_main{
-    margin-top: -30px;
-}
-.client_taital{
-    font-size: 40px;
-}
-.client_section_2 {
-    width: 100%;
-    display: initial;
-    padding: 0px;
-}
-.client_left{
-    width: 100%;
-}
-.client_right{
-    width: 100%;
-}
-.client_main{
-    padding: 40px 10px 30px 10px;
-}
-.news_text {
-    width: 100%;
-}
-.box_main_1{
-    margin-top: 20px;
-}
-.contact_main {
-    width: 100%;
-}
-.contact_section{
-    padding-bottom: 0px;
-}
-.footer_section{
-    padding-bottom: 50px;
-}
-
-#my_slider a.carousel-control-prev {
-    display: none;
-}
-#my_slider a.carousel-control-next {
-    display: none;
-}
-
-#navbarSupportedContent {
-    transform: translateX(0);
-}
-.navbar-expand-lg .navbar-nav .nav-link {
-    color: #000 !important;;
-    text-align: center;
-    justify-content: center;
-}
-
-.login_menu{
-    display: none;
-}
-
+    .header_top_section {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .search_icon {
+        text-align: center;
+        width: 100%;
+    }
+    .header_section {
+        background-size: cover;
+    }
+    .banner_taital {
+        font-size: 50px;
+    }
+    .navbar-toggler {
+        background-color: #fff;
+    }
+    .banner_text {
+        font-size: 15px;
+        width: 100%;
+    }
+    .contact_bt {
+        width: 170px;
+    }
+    .image_1 {
+        padding-top: 50px;
+    }
+    .banner_section {
+        padding-bottom: 90px;
+    }
+    .about_section_2 .row {
+        flex-direction: column-reverse;
+    }
+    .about_section {
+        padding-bottom: 0px;
+    }
+    .about_taital {
+        font-size: 40px;
+        padding-top: 0px;
+    }
+    .about_text {
+        font-size: 14px;
+    }
+    .image_2::after {
+        display: none;
+    }
+    .image_2::before {
+        display: none;
+    }
+    .image_2 {
+        width: 100%;
+        margin: 30px 0px 0px 0px;
+        text-align: center;
+    }
+    .about_section_2 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .design_taital {
+        font-size: 40px;
+    }
+    .design_text {
+        font-size: 16px;
+    }
+    .box_main {
+        margin-top: 20px;
+    }
+    .read_bt {
+        padding-top: 40px;
+    }
+    .newsletter_taital {
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    .contact_taital {
+        font-size: 40px;
+    }
+    .mail_section_1 {
+        width: 100%;
+    }
+    .contact_section {
+        padding-bottom: 90px;
+    }
+    .footer_location_text li {
+        padding: 0px;
+        float: initial;
+    }
+    .footer_location_text ul {
+        text-align: left;
+    }
+    .useful_text {
+        padding-top: 20px;
+    }
+    .search_icon {
+        display: none;
+    }
+    .image_4 {
+        padding-top: 70px;
+        min-height: 0px;
+    }
+    .margin_top_90 {
+        margin-top: 90px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -469,149 +383,109 @@ height: 110%;
         top: 90%;
         display: none;
     }
-    .navbar-toggler:not(:disabled):not(.disabled) {
-        display: block;
+    .navbar {
+        padding: .5rem 15px;
     }
-    .bg-light { background-color: #ffffff !important;}
-.navbar-light .navbar-toggler-icon {
-    background-image:url(../images/toggle-icon1.png); 
-    width: 40px;
-}
-.navbar-light .navbar-toggler {
-    color: rgba(0,0,0,.5);
-    border-color: transparent !important;
-}
-.navbar-toggler {
-    padding: 0;
-}
-
-
-
-#main{
-    display: none;
-}
-.banner_section .row{
-    flex-direction: column-reverse;
-}
-.header_section{
-    background: #274d5a;
-}
-.best_text {
-    margin-top: 30px;
-}
-.header_section.header_bg::after {
-    height: 100%;
-}
-.header_section::after { display: none; }
-.box_main::after {
-    width: 90%;
-    height: 100%;
-}
-.number_text {
-    margin-right: 50px;
-}
-.cycles_text::after { width: 120px; top: 60px;}
-.cycles_text{ font-size: 26px; }
-.cycle_section_3 .row {
-    flex-direction: column-reverse;
-}
-.image_2 {
-    padding-left: 20px;
-}
-.box_main_3::after {
-width: 90%;
-height: 110%;
-}
-.number_text_2 {
-    margin-right: 75px;
-    margin-top: 40px;
-}
-.box_main_3 {
-    margin-bottom: 30px;
-}
-.cycle_section_2{
-    padding-top: 0px;
-}
-.read_btn_main {
-    margin-top: 50px;
-}
-.about_section{
-    background-size: cover;
-    height: 640px;
-    margin-bottom: 180px;
-}
-.about_taital {
-    font-size: 26px;
-}
-.about_text {
-    width: 100%;
-}
-.image_5 {
-    width: 90%;
-}
-.about_main::after {
-    width: 360px;
-    height: 290px;
-}
-.about_main::before {
-    width: 310px;
-    top: 50px;
-    height: 240px;
-    left: -35px;
-}
-.client_taital{
-    font-size: 26px;
-}
-.client_section_2 {
-    width: 100%;
-    display: initial;
-    padding: 0px;
-}
-.client_left{
-    width: 100%;
-}
-.client_right{
-    width: 100%;
-}
-.client_main{
-    padding: 40px 10px 30px 10px;
-}
-.news_text {
-    width: 100%;
-}
-.box_main_1{
-    margin-top: 20px;
-}
-.contact_main {
-    width: 100%;
-}
-.contact_section{
-    padding-bottom: 0px;
-}
-.footer_section{
-    padding-bottom: 50px;
-}
-
-#my_slider a.carousel-control-prev {
-    display: none;
-}
-#my_slider a.carousel-control-next {
-    display: none;
-}
-
-
-#navbarSupportedContent {
-    transform: translateX(0);
-}
-.navbar-expand-lg .navbar-nav .nav-link {
-    color: #000 !important;;
-    text-align: center;
-    justify-content: center;
-}
-
-.login_menu{
-    display: none;
-}
-
-
+    .navbar-toggler {
+        background-color: #fff;
+    }
+    .header_top_section {
+        display: none;
+    }
+    .search_icon {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .search_icon {
+        text-align: center;
+        width: 100%;
+    }
+    .header_section {
+        background-size: cover;
+    }
+    .banner_taital {
+        font-size: 40px;
+    }
+    .banner_text {
+        font-size: 15px;
+        width: 100%;
+    }
+    .contact_bt {
+        width: 170px;
+    }
+    .image_1 {
+        padding-top: 50px;
+    }
+    .banner_section {
+        padding-bottom: 90px;
+    }
+    .about_section_2 .row {
+        flex-direction: column-reverse;
+    }
+    .about_section {
+        padding-bottom: 0px;
+    }
+    .about_taital {
+        font-size: 28px;
+        padding-top: 0px;
+    }
+    .about_text {
+        font-size: 14px;
+    }
+    .image_2::after {
+        display: none;
+    }
+    .image_2::before {
+        display: none;
+    }
+    .image_2 {
+        width: 100%;
+        margin: 30px 0px 0px 0px;
+        text-align: center;
+    }
+    .about_section_2 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .design_taital {
+        font-size: 28px;
+    }
+    .design_text {
+        font-size: 14px;
+    }
+    .box_main {
+        margin-top: 20px;
+    }
+    .read_bt {
+        padding-top: 40px;
+    }
+    .newsletter_taital {
+        font-size: 26px;
+        padding-top: 30px;
+    }
+    .contact_taital {
+        font-size: 30px;
+    }
+    .mail_section_1 {
+        width: 100%;
+    }
+    .contact_section {
+        padding-bottom: 90px;
+    }
+    .footer_location_text li {
+        padding: 0px;
+        float: initial;
+    }
+    .footer_location_text ul {
+        text-align: left;
+    }
+    .useful_text {
+        padding-top: 20px;
+    }
+    .margin_top_90 {
+        margin-top: 90px;
+    }
+    
 }
